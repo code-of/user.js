@@ -1,0 +1,10 @@
+{
+  "ext": "*",
+  "execMap": {
+    "ts": "pnpm build && node --loader ts-node/esm"
+  },
+  "ignore": ["*.test.js", "dist/**"],
+  "signal": "SIGHUP",
+  "watch": ["src/"],
+  "delay": 2500
+}
